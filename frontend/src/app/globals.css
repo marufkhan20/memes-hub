@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Reem Kufi", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-size: 25px !important;
+  line-height: 34px;
+}
+
+.header {
+  background: #fff;
+  box-shadow: 0px 0px 15.9375px 0px rgba(0, 0, 0, 0.1);
+}
+
+li {
+  list-style: none;
+}
+
+.hero {
+  background: linear-gradient(
+    180deg,
+    rgba(214, 218, 228, 0) 0%,
+    rgba(214, 218, 228, 0.2) 100%
+  );
+}
+
+.contact-form {
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 0px 50px 0px rgba(241, 67, 54, 0.3);
+}
+
+.shadow-right {
+  box-shadow: 5px 0px 8px rgba(0, 0, 0, 0.1);
+}
